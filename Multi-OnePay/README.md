@@ -1,4 +1,4 @@
 # skeletor-stack
 
 Base project
-Test2
+Test
