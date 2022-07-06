@@ -1,6 +1,7 @@
-package es.alten.dao;
+/*package es.alten.dao;
 
 import es.alten.domain.Invoice;
+import es.alten.domain.QInvoice;
 import es.alten.domain.QUser;
 import es.alten.domain.User;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
@@ -11,4 +12,6 @@ public interface InvoiceRepository extends ElvisBaseRepository<Invoice, Long, QI
         JpaSpecificationExecutor<Invoice>,
         QuerydslPredicateExecutor<Invoice>,
         QuerydslBinderCustomizer<QInvoice> {
+    Invoice findByPagado(Boolean pagado);
 }
+*/

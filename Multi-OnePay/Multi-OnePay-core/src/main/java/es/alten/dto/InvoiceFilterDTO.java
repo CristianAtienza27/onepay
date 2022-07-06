@@ -1,4 +1,4 @@
-package es.alten.dto;
+/*package es.alten.dto;
 
 import es.alten.domain.Invoice;
 import es.alten.domain.User;
@@ -10,10 +10,10 @@ import javax.persistence.criteria.Predicate;
 public class InvoiceFilterDTO extends BaseFilterDTO<Invoice>{
 
     /** serialVersionUID for object serialization. */
-    private static final long serialVersionUID = -7726776743129637984L;
+ /*   private static final long serialVersionUID = -7726776743129637984L;
 
     /** User email. */
-    private Boolean pagado;
+   /* private Boolean pagado;
     @Override
     public Specification<Invoice> obtainFilterSpecification() {
         return (root, query, cb) -> {
@@ -29,3 +29,4 @@ public class InvoiceFilterDTO extends BaseFilterDTO<Invoice>{
         };
     }
 }
+*/

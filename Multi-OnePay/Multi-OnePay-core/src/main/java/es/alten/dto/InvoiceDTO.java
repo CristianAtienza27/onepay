@@ -1,4 +1,4 @@
-package es.alten.dto;
+/*package es.alten.dto;
 
 import es.alten.domain.Invoice;
 import io.swagger.annotations.ApiModel;
@@ -22,4 +22,4 @@ public class InvoiceDTO extends ElvisBaseDTO<Invoice>{
     private double importe;
     private Date fecha;
     private boolean pagado;
-}
+}*/

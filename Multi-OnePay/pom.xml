@@ -67,6 +67,14 @@
                 <packaging.type>war</packaging.type>
                 <tomcat.scope>provided</tomcat.scope>
             </properties>
+        </profile>
+        <profile>
+            <id>devLocal02</id>
+            <properties>
+                <environment>devLocal02</environment>
+                <packaging.type>war</packaging.type>
+                <tomcat.scope>provided</tomcat.scope>
+            </properties>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
